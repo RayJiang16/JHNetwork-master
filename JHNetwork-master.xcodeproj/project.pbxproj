@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43777F08E9390CF1AAC6720A /* libPods-JHNetwork-master.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C120DF5EA804FC8ED89F2E49 /* libPods-JHNetwork-master.a */; };
+		71735546206146410034DE70 /* JHCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 71735545206146410034DE70 /* JHCache.m */; };
 		71D699D92060CA2A00D420DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D699D82060CA2A00D420DF /* AppDelegate.m */; };
 		71D699DC2060CA2A00D420DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D699DB2060CA2A00D420DF /* ViewController.m */; };
 		71D699DF2060CA2A00D420DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D699DD2060CA2A00D420DF /* Main.storyboard */; };
 		71D699E12060CA2A00D420DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D699E02060CA2A00D420DF /* Assets.xcassets */; };
 		71D699E42060CA2A00D420DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D699E22060CA2A00D420DF /* LaunchScreen.storyboard */; };
 		71D699E72060CA2A00D420DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D699E62060CA2A00D420DF /* main.m */; };
+		71D699FB2060E54C00D420DF /* JHBaseServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D699FA2060E54C00D420DF /* JHBaseServer.m */; };
+		71D69A072060EC7400D420DF /* JHRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D69A062060EC7400D420DF /* JHRequestModel.m */; };
+		71D69A0A2060EC7B00D420DF /* JHResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D69A092060EC7B00D420DF /* JHResponseModel.m */; };
+		71D69A102060ED5200D420DF /* JHBaseEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D69A0F2060ED5200D420DF /* JHBaseEngine.m */; };
+		71D69A132060EE6E00D420DF /* JHAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D69A122060EE6E00D420DF /* JHAPIClient.m */; };
+		71D69A162060F4BC00D420DF /* JHLoginEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D69A152060F4BC00D420DF /* JHLoginEngine.m */; };
+		71D69A1A2060FA9B00D420DF /* JHRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D69A192060FA9B00D420DF /* JHRequestGenerator.m */; };
+		71D69A1D2060FAA600D420DF /* JHResponseGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D69A1C2060FAA600D420DF /* JHResponseGenerator.m */; };
+		71DA467720620139000AFE30 /* JHCountServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DA467520620139000AFE30 /* JHCountServer.m */; };
+		71DA467820620139000AFE30 /* JHMainServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DA467620620139000AFE30 /* JHMainServer.m */; };
+		71DA467B206201CF000AFE30 /* JHServerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DA4679206201CF000AFE30 /* JHServerFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		71735544206146410034DE70 /* JHCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHCache.h; sourceTree = "<group>"; };
+		71735545206146410034DE70 /* JHCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHCache.m; sourceTree = "<group>"; };
 		71D699D42060CA2A00D420DF /* JHNetwork-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JHNetwork-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D699D72060CA2A00D420DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		71D699D82060CA2A00D420DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +41,33 @@
 		71D699E32060CA2A00D420DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71D699E52060CA2A00D420DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71D699E62060CA2A00D420DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71D699F72060E35200D420DF /* JHHTTPConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHHTTPConfig.h; sourceTree = "<group>"; };
+		71D699F82060E36500D420DF /* JHHTTPEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHHTTPEnum.h; sourceTree = "<group>"; };
+		71D699F92060E54C00D420DF /* JHBaseServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHBaseServer.h; sourceTree = "<group>"; };
+		71D699FA2060E54C00D420DF /* JHBaseServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHBaseServer.m; sourceTree = "<group>"; };
+		71D69A052060EC7400D420DF /* JHRequestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHRequestModel.h; sourceTree = "<group>"; };
+		71D69A062060EC7400D420DF /* JHRequestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHRequestModel.m; sourceTree = "<group>"; };
+		71D69A082060EC7B00D420DF /* JHResponseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHResponseModel.h; sourceTree = "<group>"; };
+		71D69A092060EC7B00D420DF /* JHResponseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHResponseModel.m; sourceTree = "<group>"; };
+		71D69A0E2060ED5200D420DF /* JHBaseEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHBaseEngine.h; sourceTree = "<group>"; };
+		71D69A0F2060ED5200D420DF /* JHBaseEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHBaseEngine.m; sourceTree = "<group>"; };
+		71D69A112060EE6E00D420DF /* JHAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHAPIClient.h; sourceTree = "<group>"; };
+		71D69A122060EE6E00D420DF /* JHAPIClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHAPIClient.m; sourceTree = "<group>"; };
+		71D69A142060F4BC00D420DF /* JHLoginEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHLoginEngine.h; sourceTree = "<group>"; };
+		71D69A152060F4BC00D420DF /* JHLoginEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHLoginEngine.m; sourceTree = "<group>"; };
+		71D69A182060FA9B00D420DF /* JHRequestGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHRequestGenerator.h; sourceTree = "<group>"; };
+		71D69A192060FA9B00D420DF /* JHRequestGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHRequestGenerator.m; sourceTree = "<group>"; };
+		71D69A1B2060FAA600D420DF /* JHResponseGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHResponseGenerator.h; sourceTree = "<group>"; };
+		71D69A1C2060FAA600D420DF /* JHResponseGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHResponseGenerator.m; sourceTree = "<group>"; };
+		71DA467320620139000AFE30 /* JHMainServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHMainServer.h; sourceTree = "<group>"; };
+		71DA467420620139000AFE30 /* JHCountServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCountServer.h; sourceTree = "<group>"; };
+		71DA467520620139000AFE30 /* JHCountServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCountServer.m; sourceTree = "<group>"; };
+		71DA467620620139000AFE30 /* JHMainServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHMainServer.m; sourceTree = "<group>"; };
+		71DA4679206201CF000AFE30 /* JHServerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHServerFactory.m; sourceTree = "<group>"; };
+		71DA467A206201CF000AFE30 /* JHServerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHServerFactory.h; sourceTree = "<group>"; };
+		8FF2EC875453139ED63A5FC8 /* Pods-JHNetwork-master.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHNetwork-master.release.xcconfig"; path = "Pods/Target Support Files/Pods-JHNetwork-master/Pods-JHNetwork-master.release.xcconfig"; sourceTree = "<group>"; };
+		C120DF5EA804FC8ED89F2E49 /* libPods-JHNetwork-master.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JHNetwork-master.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3AAD77A5929555C8A566E0E /* Pods-JHNetwork-master.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHNetwork-master.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JHNetwork-master/Pods-JHNetwork-master.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +75,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43777F08E9390CF1AAC6720A /* libPods-JHNetwork-master.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53D89713A267F2A14A5C1956 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C120DF5EA804FC8ED89F2E49 /* libPods-JHNetwork-master.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		71D699CB2060CA2A00D420DF = {
 			isa = PBXGroup;
 			children = (
 				71D699D62060CA2A00D420DF /* JHNetwork-master */,
 				71D699D52060CA2A00D420DF /* Products */,
+				DFBB065943C921087D1CFB12 /* Pods */,
+				53D89713A267F2A14A5C1956 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +111,13 @@
 		71D699D62060CA2A00D420DF /* JHNetwork-master */ = {
 			isa = PBXGroup;
 			children = (
+				71D699EF2060DF8200D420DF /* JHNetwork */,
 				71D699D72060CA2A00D420DF /* AppDelegate.h */,
 				71D699D82060CA2A00D420DF /* AppDelegate.m */,
 				71D699DA2060CA2A00D420DF /* ViewController.h */,
 				71D699DB2060CA2A00D420DF /* ViewController.m */,
+				71D69A172060F4C700D420DF /* Engine */,
+				71DA46722062010C000AFE30 /* Server */,
 				71D699DD2060CA2A00D420DF /* Main.storyboard */,
 				71D699E02060CA2A00D420DF /* Assets.xcassets */,
 				71D699E22060CA2A00D420DF /* LaunchScreen.storyboard */,
@@ -71,6 +127,102 @@
 			path = "JHNetwork-master";
 			sourceTree = "<group>";
 		};
+		71D699EF2060DF8200D420DF /* JHNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				71D699F62060E35200D420DF /* Header */,
+				71D699F12060DFE700D420DF /* Engine */,
+				71D699F22060DFE700D420DF /* Assistant */,
+				71D699F32060DFE700D420DF /* Server */,
+				71D699F02060DFE700D420DF /* Client */,
+			);
+			path = JHNetwork;
+			sourceTree = "<group>";
+		};
+		71D699F02060DFE700D420DF /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				71D69A112060EE6E00D420DF /* JHAPIClient.h */,
+				71D69A122060EE6E00D420DF /* JHAPIClient.m */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		71D699F12060DFE700D420DF /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				71D69A0E2060ED5200D420DF /* JHBaseEngine.h */,
+				71D69A0F2060ED5200D420DF /* JHBaseEngine.m */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		71D699F22060DFE700D420DF /* Assistant */ = {
+			isa = PBXGroup;
+			children = (
+				71735544206146410034DE70 /* JHCache.h */,
+				71735545206146410034DE70 /* JHCache.m */,
+				71D69A052060EC7400D420DF /* JHRequestModel.h */,
+				71D69A062060EC7400D420DF /* JHRequestModel.m */,
+				71D69A082060EC7B00D420DF /* JHResponseModel.h */,
+				71D69A092060EC7B00D420DF /* JHResponseModel.m */,
+				71D69A182060FA9B00D420DF /* JHRequestGenerator.h */,
+				71D69A192060FA9B00D420DF /* JHRequestGenerator.m */,
+				71D69A1B2060FAA600D420DF /* JHResponseGenerator.h */,
+				71D69A1C2060FAA600D420DF /* JHResponseGenerator.m */,
+			);
+			path = Assistant;
+			sourceTree = "<group>";
+		};
+		71D699F32060DFE700D420DF /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				71DA467A206201CF000AFE30 /* JHServerFactory.h */,
+				71DA4679206201CF000AFE30 /* JHServerFactory.m */,
+				71D699F92060E54C00D420DF /* JHBaseServer.h */,
+				71D699FA2060E54C00D420DF /* JHBaseServer.m */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		71D699F62060E35200D420DF /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				71D699F72060E35200D420DF /* JHHTTPConfig.h */,
+				71D699F82060E36500D420DF /* JHHTTPEnum.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		71D69A172060F4C700D420DF /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				71D69A142060F4BC00D420DF /* JHLoginEngine.h */,
+				71D69A152060F4BC00D420DF /* JHLoginEngine.m */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		71DA46722062010C000AFE30 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				71DA467320620139000AFE30 /* JHMainServer.h */,
+				71DA467620620139000AFE30 /* JHMainServer.m */,
+				71DA467420620139000AFE30 /* JHCountServer.h */,
+				71DA467520620139000AFE30 /* JHCountServer.m */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		DFBB065943C921087D1CFB12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3AAD77A5929555C8A566E0E /* Pods-JHNetwork-master.debug.xcconfig */,
+				8FF2EC875453139ED63A5FC8 /* Pods-JHNetwork-master.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71D699EA2060CA2A00D420DF /* Build configuration list for PBXNativeTarget "JHNetwork-master" */;
 			buildPhases = (
+				916B71708C85E3C028DE8246 /* [CP] Check Pods Manifest.lock */,
 				71D699D02060CA2A00D420DF /* Sources */,
 				71D699D12060CA2A00D420DF /* Frameworks */,
 				71D699D22060CA2A00D420DF /* Resources */,
+				E3FD4E128C2D33BE87580C08 /* [CP] Embed Pods Frameworks */,
+				6D07A85A105CE116CE888FA5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,14 +292,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D07A85A105CE116CE888FA5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JHNetwork-master/Pods-JHNetwork-master-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JHNetwork-master/Pods-JHNetwork-master-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		916B71708C85E3C028DE8246 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JHNetwork-master-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3FD4E128C2D33BE87580C08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JHNetwork-master/Pods-JHNetwork-master-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		71D699D02060CA2A00D420DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				71D699DC2060CA2A00D420DF /* ViewController.m in Sources */,
+				71735546206146410034DE70 /* JHCache.m in Sources */,
+				71D69A1A2060FA9B00D420DF /* JHRequestGenerator.m in Sources */,
+				71D69A132060EE6E00D420DF /* JHAPIClient.m in Sources */,
+				71D69A1D2060FAA600D420DF /* JHResponseGenerator.m in Sources */,
+				71D69A162060F4BC00D420DF /* JHLoginEngine.m in Sources */,
+				71DA467820620139000AFE30 /* JHMainServer.m in Sources */,
+				71D699FB2060E54C00D420DF /* JHBaseServer.m in Sources */,
+				71DA467720620139000AFE30 /* JHCountServer.m in Sources */,
+				71D69A102060ED5200D420DF /* JHBaseEngine.m in Sources */,
+				71D69A0A2060EC7B00D420DF /* JHResponseModel.m in Sources */,
 				71D699E72060CA2A00D420DF /* main.m in Sources */,
 				71D699D92060CA2A00D420DF /* AppDelegate.m in Sources */,
+				71DA467B206201CF000AFE30 /* JHServerFactory.m in Sources */,
+				71D69A072060EC7400D420DF /* JHRequestModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,10 +497,13 @@
 		};
 		71D699EB2060CA2A00D420DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3AAD77A5929555C8A566E0E /* Pods-JHNetwork-master.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E55KJ883PM;
 				INFOPLIST_FILE = "JHNetwork-master/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ray.JHNetwork-master";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,10 +513,13 @@
 		};
 		71D699EC2060CA2A00D420DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FF2EC875453139ED63A5FC8 /* Pods-JHNetwork-master.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E55KJ883PM;
 				INFOPLIST_FILE = "JHNetwork-master/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ray.JHNetwork-master";
 				PRODUCT_NAME = "$(TARGET_NAME)";

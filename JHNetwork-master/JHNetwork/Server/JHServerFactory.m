@@ -9,9 +9,6 @@
 #import "JHServerFactory.h"
 #import "JHBaseServer.h"
 
-#import "JHMainServer.h"
-#import "JHCountServer.h"
-
 @interface JHServerFactory ()
 @property (nonatomic, strong) NSMutableDictionary<NSNumber *, JHBaseServer *> *serverStorage;
 
@@ -19,7 +16,16 @@
 
 @implementation JHServerFactory
 
-+ (instancetype)sharedInstance {
++ (JHBaseServer *)serverWithType:(JHServer)type {
+    JHServerFactory *factory = [self p_sharedInstance];
+    if (factory.serverStorage[@(type)] == nil) {
+        factory.serverStorage[@(type)] = [self p_createServerWithType:type];
+    }
+    return factory.serverStorage[@(type)];
+}
+
+#pragma mark - Private
++ (instancetype)p_sharedInstance {
     static JHServerFactory *instance;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
@@ -28,20 +34,18 @@
     return instance;
 }
 
-- (JHBaseServer *)serverWithType:(JHServer)type {
-    if (self.serverStorage[@(type)] == nil) {
-        self.serverStorage[@(type)] = [self p_createServerWithType:type];
-    }
-    return self.serverStorage[@(type)];
-}
-
-#pragma mark - Private
-- (JHBaseServer *)p_createServerWithType:(JHServer)type {
++ (JHBaseServer *)p_createServerWithType:(JHServer)type {
+    NSString *className = @"";
     switch (type) {
-        case JHServerMain: return [JHMainServer new];
-        case JHServerCount:return [JHCountServer new];
-        default: return nil;
+        case JHServerMain:
+            className = @"JHMainServer";
+            break;
+        case JHServerCount:
+            className = @"JHCountServer";
+            break;
+        default:return nil;
     }
+    return [NSClassFromString(className) new];
 }
 
 #pragma mark - Lazy laoding

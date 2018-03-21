@@ -8,6 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
+@class JHRequestModel;
+
 @interface JHRequestGenerator : NSObject
+
+/**
+ 根据RequestModel中的属性生成NSURLRequest
+
+ @param model 模型对象
+ @return NSURLRequest
+ */
++ (NSURLRequest *)requestWithModel:(JHRequestModel *)model;
 
 @end

@@ -10,4 +10,6 @@
 
 @interface JHLoginEngine : JHBaseEngine
 
++ (instancetype)loginWithUserName:(NSString *)userName pwd:(NSString *)pwd handler:(responseHandler)handler;
+
 @end

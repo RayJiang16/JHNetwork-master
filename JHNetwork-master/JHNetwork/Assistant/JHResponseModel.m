@@ -10,4 +10,14 @@
 
 @implementation JHResponseModel
 
++ (NSDictionary *)modelCustomPropertyMapper {
+    return @{@"success":@"return",
+             @"msg":@"message"
+             };
+}
+
+- (NSString *)description {
+    return [NSString stringWithFormat:@"success:%d, ecode:%ld, msg:%@, obj:%@", self.isSuccess, self.ecode, self.msg, self.obj];
+}
+
 @end
