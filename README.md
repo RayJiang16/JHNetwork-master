@@ -13,3 +13,7 @@
 再调用父类的[engineWithRequestModel:handler:]方法进行网络请求
 
 3.自定义response解析规则
+
+### 结构
+
+<img src="https://github.com/RayJiang16/JHNetwork-master/blob/master/UML.png" alt="JHNetwork" title="JHNetwork">
